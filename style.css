@@ -1,1 +1,13 @@
+.card {
+  
+  width: 300 px;
+  
+  padding: 20 px;
 
+  border: 2 px solid #2f7963;
+
+  margin: 16 px auto;
+
+  background-color: #f5f5f5
+
+}
