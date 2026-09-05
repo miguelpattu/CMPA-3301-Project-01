@@ -1,17 +1,58 @@
-.card {
-  
-  width: 300 px;
+/* ==========================================================================
+   Assignment 02: Base Styling & Typography
+   CMPA 3301 - Fundamentals of Computing Applications
+   ========================================================================== */
 
-  height: 3300 px;
-  
-  padding: 20 px;
+/* 1. Body background and default typography */
+body {
+    background-color: #f4f7f6; /* Soft, light neutral background */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Breathing room around the edges of the viewport */
+}
 
-  border: 2 px solid #2f7963;
+/* 2. Main heading styling */
+h1 {
+    font-family: 'Georgia', serif;
+    color: #003366; /* TTU Navy / Professional Accent */
+    margin-bottom: 10px;
+}
 
-  margin: 16 px auto;
+/* 3. Subheading styling */
+h2 {
+    font-family: 'Georgia', serif;
+    color: #4a5568;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
 
-  font-family: #1f53cc
+/* 4. Paragraph styling */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2d3748;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    max-width: 750px; /* Improves readability across wide monitors */
+}
 
-  background-color: #f5f5f5
+/* 5. List and link styling */
+ul {
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
 
+li {
+    margin-bottom: 6px;
+}
+
+a {
+    color: #cc0000; /* TTU Scarlet Accent */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
